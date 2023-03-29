@@ -28,13 +28,7 @@ android {
     }
 }
 
-afterEvaluate {
-    // 排除 BuildConfig.class 和 R.class
-    generateReleaseBuildConfig.enabled = false
-    generateDebugBuildConfig.enabled = false
-    generateReleaseResValues.enabled = false
-    generateDebugResValues.enabled = false
-}
+
 
 dependencies {
     // 依赖 libs 目录下所有的 jar 和 aar 包
